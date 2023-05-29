@@ -1,3 +1,6 @@
+div, p, a, h1, h2, img, main{
+  border: 1px solid red;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -8,24 +11,103 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/* ШАПКА САЙТА*/
 .header {
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.logo{
+  height: 32px;
+  width: 228px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+.highest_position{
+  z-index: 3;
+}
+.midle_position{
+  z-index: 2;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.title{
+  line-height: 96px;
+  font-size: 102px;
+  font-style: normal;
+  width: 730px;
+  display: flex;
+  position: relative;
+  margin: auto auto auto 64px;
+  color: #000000;
+}
+
+.subtitle{
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 338px;
+  color: #000000;
+  ;
+}
+.subtitle_link{
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  color: #2f80ed;
+}
+
+.square-pic{
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+}
+
+.logo_header{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 608px;
+  width: 765px;
+}
+/*КОНЕЦ ШАПКИ САЙТА*/
+
+.two_columns{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.two_columns_brief{
+  width: 175px;
+}
+
+.two_columns_main-text{
+  display: flex;
+  width: 80%;
+  min-width: 784px;
+  margin-right: 0px;
+}
+
+.two-columns_paragraph{
+  display: flex;
+  flex-direction: column;
+}
+
+.span{
+  font-weight: bolder;
 }
