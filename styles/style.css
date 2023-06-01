@@ -44,7 +44,6 @@ ul {
 }
 
 .header__title {
-  margin: 0;
   z-index: 3;
   line-height: 96px;
   font-size: 102px;
@@ -341,7 +340,6 @@ ul {
 }
 
 .footer__author {
-  margin: 0;
   color: white;
   line-height: 25px;
   font-size: 18px;
