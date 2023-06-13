@@ -1,4 +1,4 @@
-# Hi there, I'm [Aleksander]
+# Hi there, I'm Aleksander.
 
 ## Project - How to learn
 
