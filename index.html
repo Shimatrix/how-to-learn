@@ -4,34 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
+    <header class="header">
+      <img
+        class="logo logo_place_header"
+        src="./images/logo_place_header.svg"
+        alt="Лого Яндекс"
+      />
+      <h1 class="header__title">Научиться учиться</h1>
+      <p class="header__subtitle">
+        Какие современные и эффективные подходы к обучению вы можете
+        использовать в своей жизни?
+        <a
+          href="https://4brain.ru/pedagogika/new-methods.php"
+          target="_blank"
+          class="header__link"
+          >Узнать &#8594;</a
+        >
+      </p>
+      <div class="header__square-pic rotation"></div>
+      <img
+        class="header__main-illustration"
+        src="./images/header-image.png"
+        alt="Опять двойка"
+      />
+    </header>
     <main>
-      <header class="header">
-        <img
-          class="logo logo_place_header"
-          src="./images/logo_place_header.svg"
-          alt="Лого Яндекс"
-        />
-        <h1 class="header__title">Научиться учиться</h1>
-        <p class="header__subtitle">
-          Какие современные и эффективные подходы к обучению вы можете
-          использовать в своей жизни?
-          <a
-            href="https://4brain.ru/pedagogika/new-methods.php"
-            target="_blank"
-            class="header__link"
-            >Узнать &#8594;</a
-          >
-        </p>
-        <div class="header__square-pic rotation"></div>
-        <img
-          class="header__main-illustration"
-          src="./images/header-image.png"
-          alt="Опять двойка"
-        />
-      </header>
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -214,7 +214,7 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <p class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов
@@ -352,95 +352,95 @@
           /></a>
         </div>
       </section>
-      <footer class="footer">
-        <div class="footer__columns">
-          <div class="footer__column footer__column_content_copyright">
-            <img
-              class="logo logo_place_footer"
-              src="./images/logo_place_footer.svg"
-              alt="Лого Яндекс"
-            />
-            <p class="footer__author">&#169; Александр Гражданцев</p>
-          </div>
-          <div class="footer__column footer__column_content_info">
-            <h2 class="footer__column-heading">О Практикуме</h2>
-            <nav>
-              <ul class="footer__column-links">
-                <li>
-                  <a
-                    class="footer__column-link"
-                    href="https://practicum.yandex.ru/"
-                    target="_blank"
-                    >Главная</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="footer__column-link"
-                    href="https://practicum.yandex.ru/reviews/"
-                    target="_blank"
-                    >Концепция</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="footer__column-link"
-                    href="https://practicum.yandex.ru/job"
-                    target="_blank"
-                    >Наставники</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="footer__column footer__column_content_social">
-            <h2 class="footer__column-heading">Соцсети</h2>
-            <nav>
-              <ul class="footer__column-links">
-                <li>
-                  <a
-                    class="footer__column-link"
-                    href="https://youtube.com/@YandexPracticum"
-                    target="_blank"
-                  >
-                    <img
-                      class="footer__social-icon"
-                      src="./images/youtube-icon.svg"
-                      alt="Лого Ютуб"
-                    />YouTube</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="footer__column-link"
-                    href="https://vk.com/yandex.practicum"
-                    target="_blank"
-                  >
-                    <img
-                      class="footer__social-icon"
-                      src="./images/vk_color_white.svg"
-                      alt="Лого ВКонтакте"
-                    />ВКонтакте</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="footer__column-link"
-                    href="https://www.tiktok.com/@practicumbootcamp?_t=8cyeuGQGzCM&_r=1"
-                    target="_blank"
-                  >
-                    <img
-                      class="footer__social-icon"
-                      src="./images/tiktok-icon.svg"
-                      alt="Лого Тикток"
-                    />TikTok</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </footer>
     </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <img
+            class="logo logo_place_footer"
+            src="./images/logo_place_footer.svg"
+            alt="Лого Яндекс"
+          />
+          <p class="footer__author">&#169; Александр Гражданцев</p>
+        </div>
+        <div class="footer__column footer__column_content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>
+          <nav>
+            <ul class="footer__column-links">
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://practicum.yandex.ru/"
+                  target="_blank"
+                  >Главная</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://practicum.yandex.ru/reviews/"
+                  target="_blank"
+                  >Концепция</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://practicum.yandex.ru/job"
+                  target="_blank"
+                  >Наставники</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">Соцсети</h2>
+          <nav>
+            <ul class="footer__column-links">
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://youtube.com/@YandexPracticum"
+                  target="_blank"
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="./images/youtube-icon.svg"
+                    alt="Лого Ютуб"
+                  />YouTube</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://vk.com/yandex.practicum"
+                  target="_blank"
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="./images/vk_color_white.svg"
+                    alt="Лого ВКонтакте"
+                  />ВКонтакте</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://www.tiktok.com/@practicumbootcamp?_t=8cyeuGQGzCM&_r=1"
+                  target="_blank"
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="./images/tiktok-icon.svg"
+                    alt="Лого Тикток"
+                  />TikTok</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
